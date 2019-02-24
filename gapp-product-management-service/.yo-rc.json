@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.gapp.product"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "microservice",
+    "baseName": "gapp",
+    "packageName": "com.gapp.product",
+    "packageFolder": "com/gapp/product",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGM3NjQyNGI2ZjllNjMxNWJhNTNkZGRhNzI2NjgwZjg1YjVjYzU4OTdmZjlkNmIxNzJhMTQ0NTUwNzk5NTcwZDk0NGQyNDAzZjAzNTNiNjAyYTk2YWJkMzIwZWZkMjdjZmQ3NGU3MTJmMzI3YTg5ZDg2NDY0ODQ4NGVhYjFkZGM=",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
